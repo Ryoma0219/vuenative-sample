@@ -6,15 +6,10 @@
     <touchable-opacity class="button" :on-press="sayHello">
       <text class="button-text">ボタン</text>
     </touchable-opacity>
-    <!-- <image :source="image" /> -->
   </view>
 </template>
  
  <script>
-  // import { RNCamera } from 'react-native-camera';
-  // import { Camera, Permissions } from 'expo';
-  // import { Toast } from 'native-base';
-
   export default {
     data() {
       return {
@@ -46,16 +41,7 @@
         //     this.image.uri = pictureData.url;
         //   });
       }
-    },
-    mounted() {
-      // Permissions.askAsync(Permissions.CAMERA)
-      //   .then(status => {
-      //     hasCameraPermission = status.status == "granted" ? true : false;
-      //   }).catch((err) => {
-      //       console.log(err);
-      //   });
     }
-    // components: { RNCamera, Camera },
   }
  
  </script>
